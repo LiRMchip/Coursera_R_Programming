@@ -3,6 +3,7 @@
 #print(data)
 
 dir = "./specdata/"
+id = 1:332
 
 
 ###################################################################
@@ -63,5 +64,5 @@ idToFile <- function(id){
 	
 }
 
-pol = pollutantmean(dir, "nitrate", id=1:10)
+pol = pollutantmean(dir, "nitrate", id)
 print(pol)
